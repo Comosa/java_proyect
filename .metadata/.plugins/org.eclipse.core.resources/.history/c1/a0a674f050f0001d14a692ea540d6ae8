@@ -1,0 +1,12 @@
+package primer_programa;
+import java.util.Scanner;
+public class Hola_Mundo {
+	public static void main(String args[]) {
+		
+		Scanner entrada= new Scanner(System.in);
+		String i;
+		System.out.printf("Dame un numero: ");
+		i=entrada.next();
+		System.out.printf("La palabra es  "+i);
+	}
+}

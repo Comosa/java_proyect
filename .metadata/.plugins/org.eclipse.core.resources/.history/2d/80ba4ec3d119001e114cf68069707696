@@ -1,0 +1,54 @@
+package Veiculo;
+
+public class Veiculo {
+	private String matricula;
+	private String marca;
+	private String modelo;
+	
+	
+	public Veiculo(String matricula, String marca, String modelo) {
+		this.matricula = matricula;
+		this.marca = marca;
+		this.modelo = modelo;
+	}
+
+
+	public String getMatricula() {
+		return matricula;
+	}
+
+
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+
+	public String getMarca() {
+		return marca;
+	}
+
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+
+	public String getModelo() {
+		return modelo;
+	}
+
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	
+	
+	public void mostrar() {
+		System.out.println("la matricula es "+getMatricula());
+		System.out.println("es de marca "+getMatricula());
+		System.out.println("el modelo es "+getModelo());
+	}
+	
+	
+	
+}

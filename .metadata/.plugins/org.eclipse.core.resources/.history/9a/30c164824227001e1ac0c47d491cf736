@@ -1,0 +1,39 @@
+package convertidorMoneda;
+
+import java.util.ArrayList;
+
+public class Variables {
+	public static void main(String[] args) {
+
+ArrayList<String> cars= new ArrayList<String>();
+
+cars.add("Volvo");
+cars.add("BMW");
+cars.add("Ford");
+cars.add("Mazda");
+cars.add(234);
+
+System.out.println(cars);
+
+
+/*
+System.out.println("modificador");
+//modificar elemento 
+//    posicion , nombre nuevo
+cars.set(1, "peterbilt");
+System.out.println(cars);
+//remover
+
+cars.remove(3);
+
+System.out.println(cars);
+
+//mostrar--- el metodo get muestra la posiscion
+System.out.println("mostrar lista");
+for (int i=0; i<cars.size(); i++) {
+	System.out.println(cars.get(i));
+}
+*/
+
+	}
+}
